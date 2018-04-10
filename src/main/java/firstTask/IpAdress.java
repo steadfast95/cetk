@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class IpAdress {
     String firstIpAdress, secondIpAdress;
 
-
     public IpAdress(String ipAddressString, String ipAddressString2) {
         this.firstIpAdress = ipAddressString;
         this.secondIpAdress = ipAddressString2;
@@ -30,7 +29,6 @@ public class IpAdress {
             String ipAddres = firstThreNumberOfIpAdress + "." + String.valueOf(i);
             listOfIpAddres.add(ipAddres);
         }
-
         return listOfIpAddres;
     }
 

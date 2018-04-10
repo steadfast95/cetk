@@ -26,7 +26,6 @@ public class PhoneBook {
         addIntoPhoneBook("ИвановИ.И.", "+8 800 2000 500 +8 800 2000 600");
         addIntoPhoneBook("ПетровП.П.", "+8 800 2000 700");
         addIntoPhoneBook("СидоровС.С.", "+8 800 2000 800 +8 800 2000 900 +8 800 2000 000");
-
     }
 
     private void addIntoListofNumber(String phoneNumber) {
@@ -40,6 +39,5 @@ public class PhoneBook {
         addIntoListofNumber("+8 800 2000 800");
         addIntoListofNumber("+8 800 2000 900");
         addIntoListofNumber("+8 800 2000 000");
-
     }
 }

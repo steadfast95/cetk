@@ -11,11 +11,8 @@ public class SecondTask {
         book.useAddIntoList();
         HashMap<String, String> phoneBook = book.getBook();
         book.getListOfNumber();
-
         Scanner fromKeyB = new Scanner(System.in);
         String s = fromKeyB.nextLine().replaceAll(" ", "");
-
-
 
         for (String number : book.getListOfNumber()) {
             if (phoneBook.get(s).contains(number)) {
