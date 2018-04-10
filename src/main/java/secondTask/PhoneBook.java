@@ -4,14 +4,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class PhoneBook {
-    private String name, phoneNumber;
     private HashMap<String, String> book = new HashMap<String, String>();
     private ArrayList<String> listOfNumber = new ArrayList<String>();
 
     public ArrayList<String> getListOfNumber() {
         return listOfNumber;
     }
-
 
     public PhoneBook() {
     }
@@ -25,7 +23,6 @@ public class PhoneBook {
     }
 
     public void useAddIntoBook() {
-
         addIntoPhoneBook("ИвановИ.И.", "+8 800 2000 500 +8 800 2000 600");
         addIntoPhoneBook("Петров П.П.", "+8 800 2000 700");
         addIntoPhoneBook("Сидоров С.С.", "+8 800 2000 800 +8 800 2000 900 +8 800 2000 000");
