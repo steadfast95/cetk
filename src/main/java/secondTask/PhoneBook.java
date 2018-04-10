@@ -24,8 +24,8 @@ public class PhoneBook {
 
     public void useAddIntoBook() {
         addIntoPhoneBook("ИвановИ.И.", "+8 800 2000 500 +8 800 2000 600");
-        addIntoPhoneBook("Петров П.П.", "+8 800 2000 700");
-        addIntoPhoneBook("Сидоров С.С.", "+8 800 2000 800 +8 800 2000 900 +8 800 2000 000");
+        addIntoPhoneBook("ПетровП.П.", "+8 800 2000 700");
+        addIntoPhoneBook("СидоровС.С.", "+8 800 2000 800 +8 800 2000 900 +8 800 2000 000");
 
     }
 

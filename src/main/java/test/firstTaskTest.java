@@ -34,16 +34,16 @@ public class firstTaskTest {
         Assert.assertEquals(defaultIpAdress, ipAdress.genereteListOfIpaddress(start, end, firstThreNumberOfIpAdress).get(0));
     }
 
-    @Test
-    public void variableStorageTest() {
-        int start = 1;
-        int end = 3;
-        String firstThreNumberOfIpAdress = "192.168.0";
-        VariableStorage variableStorage = new VariableStorage(start, end, firstThreNumberOfIpAdress);
-
-        Assert.assertEquals(start, variableStorage.getStart());
-        Assert.assertEquals(end, variableStorage.getEnd());
-        Assert.assertEquals(firstThreNumberOfIpAdress, variableStorage.getFirstTreeNumberOfIpAdress());
-
-    }
+//    @Test
+//    public void variableStorageTest() {
+//        int start = 1;
+//        int end = 3;
+//        String firstThreNumberOfIpAdress = "192.168.0";
+//        VariableStorage variableStorage = new VariableStorage(start, end, firstThreNumberOfIpAdress);
+//
+//        Assert.assertEquals(start, variableStorage.getStart());
+//        Assert.assertEquals(end, variableStorage.getEnd());
+//        Assert.assertEquals(firstThreNumberOfIpAdress, variableStorage.getFirstTreeNumberOfIpAdress());
+//
+//    }
 }

@@ -13,7 +13,9 @@ public class SecondTask {
         book.getListOfNumber();
 
         Scanner fromKeyB = new Scanner(System.in);
-        String s = fromKeyB.next();
+        String s = fromKeyB.nextLine().replaceAll(" ", "");
+
+
 
         for (String number : book.getListOfNumber()) {
             if (phoneBook.get(s).contains(number)) {
