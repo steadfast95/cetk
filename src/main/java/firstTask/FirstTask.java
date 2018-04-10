@@ -8,7 +8,7 @@ public class FirstTask {
         String s = fromKeyB.next();
         String ss = fromKeyB.next();
 
-        IPadress ipAdress = new IPadress(s, ss);
+        IpAdress ipAdress = new IpAdress(s, ss);
         VariableStorage variableStorage = ipAdress.parseStringIp();
         String body = variableStorage.firstTreeNumberOfIpAdress;
         int start = variableStorage.start;
