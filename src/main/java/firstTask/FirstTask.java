@@ -1,7 +1,15 @@
+package firstTask;
+
 import java.util.Scanner;
 
-public class Main {
+public class FirstTask {
     public static void main(String[] args) {
+        /*
+        body - первые 3 числа в ip адрессе
+       body у ip адресов  должны быть равны для корректной
+       работы программы, т.к небыло учтено что они могут быть разными (см. пр.)
+        */
+        System.out.println("1: ");
         System.out.println("waiting for two ip: ");
         Scanner fromKeyB = new Scanner(System.in);
         String s = fromKeyB.next();

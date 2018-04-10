@@ -1,3 +1,5 @@
+package firstTask;
+
 public class DoubleInt {
     int x, y;
     String s;
